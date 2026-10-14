@@ -1,0 +1,17 @@
+# GenesisBot V2 Dependencies
+# Python 3.11+ required
+
+# Core validation and data modeling
+pydantic>=2.0.0,<3.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# HTTP communication for game adapter
+requests>=2.31.0
+
+# Interactive live dashboard (Phase 2+)
+streamlit>=1.30.0
+
+# Testing framework
+pytest>=8.0.0
